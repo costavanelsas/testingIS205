@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Application.ImportExcel">
+   <BorderPane layoutX="181.0" layoutY="127.0" prefHeight="400.0" prefWidth="969.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <center>
+         <AnchorPane>
+            <children>
+                <Button layoutY="138.0" mnemonicParsing="false" text="Submit" />
+                <Button layoutY="81.0" mnemonicParsing="false" text="Choose file" />
+                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat." wrappingWidth="585.40087890625" />
+                <Text layoutX="106.0" layoutY="89.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Excel_sheet_09-10-2017.xlsx" wrappingWidth="585.40087890625" />
+            </children>
+         </AnchorPane>
+      </center>
+       <top>
+           <fx:include source="Header.fxml" />
+       </top>
+       <left>
+           <fx:include source="Menu.fxml" />
+       </left>
+   </BorderPane>
+</AnchorPane>

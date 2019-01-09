@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.121"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="Application.LostLuggage">
+    <children>
+        <BorderPane layoutX="85.0" layoutY="41.0" prefHeight="664.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0"
+                    AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <center>
+                <AnchorPane>
+                    <children>
+                        <Label layoutY="44.0" text="Step 2"/>
+                        <Label text="Edit Lost Luggage"/>
+
+                        <Label layoutY="70.0" text="Luggage Label Information"/>
+
+                        <Label layoutY="111.0" prefHeight="18.0" prefWidth="86.0" text="Label Number:"/>
+                        <TextField layoutX="1.0" layoutY="128.0"/>
+                        <Label layoutY="160.0" prefHeight="18.0" prefWidth="86.0" text="Flight Number:"/>
+                        <TextField layoutX="1.0" layoutY="177.0"/>
+                        <Label layoutY="216.0" prefHeight="18.0" prefWidth="63.0" text="Destination:"/>
+                        <TextField layoutX="1.0" layoutY="233.0"/>
+                        <Label layoutY="288.0" text="Luggage Information"/>
+                        <Label layoutY="326.0" prefHeight="18.0" prefWidth="63.0" text="Type:"/>
+                        <TextField layoutX="1.0" layoutY="343.0"/>
+                        <Label layoutY="378.0" prefHeight="18.0" prefWidth="63.0" text="Brand:"/>
+                        <TextField layoutX="1.0" layoutY="395.0"/>
+                        <Label layoutY="431.0" prefHeight="18.0" prefWidth="63.0" text="Color:"/>
+                        <TextField layoutX="1.0" layoutY="448.0"/>
+                        <Label layoutX="203.0" layoutY="326.0" prefHeight="18.0" prefWidth="101.0"
+                               text="Special Properties:"/>
+                        <TextField layoutX="202.0" layoutY="343.0" prefHeight="131.0" prefWidth="158.0"/>
+                        <Button layoutX="360.0" layoutY="498.0" mnemonicParsing="false" text="Submit"/>
+                    </children>
+                </AnchorPane>
+            </center>
+            <top>
+                <fx:include source="Header.fxml"/>
+            </top>
+            <left>
+                <fx:include source="Menu.fxml"/>
+            </left>
+        </BorderPane>
+    </children>
+</AnchorPane>

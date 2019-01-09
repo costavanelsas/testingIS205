@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Application.LostAndFound">
+    <children>
+      <BorderPane layoutX="182.0" layoutY="168.0" prefHeight="649.0" prefWidth="857.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <center>
+            <AnchorPane>
+               <children>
+                    <MenuButton layoutY="1.0" mnemonicParsing="false" text="Input">
+                        <items>
+                            <MenuItem mnemonicParsing="false" text="Action 1" />
+                            <MenuItem mnemonicParsing="false" text="Action 2" />
+                        </items>
+                    </MenuButton>
+                    <TableView editable="true" layoutY="33.0" prefHeight="348.0" prefWidth="579.0">
+                        <columns>
+                            <TableColumn prefWidth="35.20001220703125" text="ID" />
+                            <TableColumn prefWidth="58.39996337890625" text="Flight ID" />
+                            <TableColumn prefWidth="93.60009765625" text="Owner" />
+                            <TableColumn prefWidth="104.7999267578125" text="Destination" />
+                            <TableColumn prefWidth="85.60000610351562" text="Date" />
+                            <TableColumn prefWidth="61.600006103515625" text="Time" />
+                            <TableColumn prefWidth="79.20001220703125" text="Status" />
+                            <TableColumn minWidth="0.0" prefWidth="59.99993896484375" text="Edit" />
+                        </columns>
+                    </TableView>
+                    <Button layoutX="539.0" layoutY="1.0" mnemonicParsing="false" text="New" />
+                    <TextField layoutX="82.0" prefHeight="26.0" prefWidth="60.0" text="input" />
+                    <TextField layoutX="160.0" prefHeight="26.0" prefWidth="60.0" text="input" />
+                    <TextField layoutX="237.0" prefHeight="26.0" prefWidth="60.0" text="input" />
+                    <TextField layoutX="309.0" prefHeight="26.0" prefWidth="85.0" text="20/10/2017" />
+               </children>
+            </AnchorPane>
+         </center>
+          <top>
+              <fx:include source="Header.fxml" />
+          </top>
+          <left>
+              <fx:include source="Menu.fxml" />
+          </left>
+      </BorderPane>
+    </children>
+</AnchorPane>

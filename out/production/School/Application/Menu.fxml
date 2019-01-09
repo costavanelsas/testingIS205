@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Application.Menu">
+    <VBox BorderPane.alignment="CENTER">
+        <children>
+            <Button minWidth="-Infinity" mnemonicParsing="false" onAction="#GoToLaf" text="Lost and found" />
+            <Button minWidth="-Infinity" mnemonicParsing="false" onAction="#GoToStats" prefHeight="25.0" prefWidth="96.0" text="Statistics" />
+            <Button minWidth="-Infinity" mnemonicParsing="false" onAction="#GoToUsers" prefHeight="25.0" prefWidth="96.0" text="Users" />
+            <Button minWidth="-Infinity" mnemonicParsing="false" onAction="#GoToImport" prefHeight="25.0" prefWidth="96.0" text="Import Excel" />
+        </children>
+    </VBox>
+</AnchorPane>
