@@ -46,8 +46,44 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/Models/LuggageTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-619">
-              <caret line="24" column="25" lean-forward="true" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+            <state relative-caret-position="969">
+              <caret line="67" selection-start-line="67" selection-end-line="67" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Controllers/LostLuggage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2812">
+              <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Controllers/LostAndFound.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1520">
+              <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Controllers/LuggageDetailController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1061">
+              <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Controllers/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-313">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -171,7 +207,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547125448007" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547127703304" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -193,7 +229,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.UserTest">
+  <component name="RunManager" selected="JUnit.LuggageTest">
     <configuration name="All in LuggageHero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LuggageHero" />
       <option name="PACKAGE_NAME" value="" />
@@ -202,7 +238,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CustomerTest.NameCanBeChanged" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LuggageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LuggageHero" />
       <extension name="coverage">
         <pattern>
@@ -211,14 +247,28 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Models" />
-      <option name="MAIN_CLASS_NAME" value="Models.CustomerTest" />
-      <option name="METHOD_NAME" value="NameCanBeChanged" />
+      <option name="MAIN_CLASS_NAME" value="Models.LuggageTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LuggageTest.getCurrentLuggageId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LuggageHero" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Models.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Models" />
+      <option name="MAIN_CLASS_NAME" value="Models.LuggageTest" />
+      <option name="METHOD_NAME" value="getCurrentLuggageId" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FlightTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LuggageTest.moreThanOneCanBeChangedTogether" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LuggageHero" />
       <extension name="coverage">
         <pattern>
@@ -227,28 +277,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Models" />
-      <option name="MAIN_CLASS_NAME" value="Models.FlightTest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FlightTest.testGetFlightNonExistingIds" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LuggageHero" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Models.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Models" />
-      <option name="MAIN_CLASS_NAME" value="Models.FlightTest" />
-      <option name="METHOD_NAME" value="testGetFlightNonExistingIds" />
+      <option name="MAIN_CLASS_NAME" value="Models.LuggageTest" />
+      <option name="METHOD_NAME" value="moreThanOneCanBeChangedTogether" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LuggageTest.testUpdateLuggage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LuggageHero" />
       <extension name="coverage">
         <pattern>
@@ -257,18 +293,20 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Models" />
-      <option name="MAIN_CLASS_NAME" value="Models.UserTest" />
+      <option name="MAIN_CLASS_NAME" value="Models.LuggageTest" />
+      <option name="METHOD_NAME" value="testUpdateLuggage" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.UserTest" />
+        <item itemvalue="JUnit.LuggageTest" />
+        <item itemvalue="JUnit.LuggageTest.testUpdateLuggage" />
+        <item itemvalue="JUnit.LuggageTest.moreThanOneCanBeChangedTogether" />
+        <item itemvalue="JUnit.LuggageTest.getCurrentLuggageId" />
         <item itemvalue="JUnit.All in LuggageHero" />
-        <item itemvalue="JUnit.CustomerTest.NameCanBeChanged" />
-        <item itemvalue="JUnit.FlightTest.testGetFlightNonExistingIds" />
-        <item itemvalue="JUnit.FlightTest" />
       </list>
     </recent_temporary>
   </component>
@@ -287,21 +325,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CustomerTest_testSaveAndGetCustomer - 2019.01.10 at 13h 13m 24s.xml">
-      <configuration name="CustomerTest.testSaveAndGetCustomer" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_LuggageHero - 2019.01.10 at 13h 16m 33s.xml">
-      <configuration name="All in LuggageHero" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FlightTest - 2019.01.10 at 13h 19m 42s.xml">
-      <configuration name="FlightTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FlightTest_testGetFlightNonExistingIds - 2019.01.10 at 13h 23m 23s.xml">
-      <configuration name="FlightTest.testGetFlightNonExistingIds" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FlightTest_testGetFlightNonExistingIds - 2019.01.10 at 13h 23m 41s.xml">
-      <configuration name="FlightTest.testGetFlightNonExistingIds" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="FlightTest_testGetFlightNonExistingIds - 2019.01.10 at 13h 24m 16s.xml">
       <configuration name="FlightTest.testGetFlightNonExistingIds" configurationId="JUnit" />
     </history-entry>
@@ -316,6 +339,21 @@
     </history-entry>
     <history-entry file="UserTest - 2019.01.10 at 13h 44m 16s.xml">
       <configuration name="UserTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_LuggageHero - 2019.01.10 at 14h 07m 30s.xml">
+      <configuration name="All in LuggageHero" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LuggageTest_getCurrentLuggageId - 2019.01.10 at 14h 30m 10s.xml">
+      <configuration name="LuggageTest.getCurrentLuggageId" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LuggageTest_moreThanOneCanBeChangedTogether - 2019.01.10 at 14h 33m 55s.xml">
+      <configuration name="LuggageTest.moreThanOneCanBeChangedTogether" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LuggageTest - 2019.01.10 at 14h 37m 02s.xml">
+      <configuration name="LuggageTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LuggageTest_testUpdateLuggage - 2019.01.10 at 14h 41m 15s.xml">
+      <configuration name="LuggageTest.testUpdateLuggage" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
@@ -334,7 +372,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -343,7 +381,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49946696" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4978678" visible="true" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4978678" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -413,27 +451,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Controllers/LostAndFound.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Controllers/LostLuggage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Controllers/LuggageDetailController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -513,13 +530,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Controllers/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="9" selection-start-line="9" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/Models/UserTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
@@ -545,10 +555,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Controllers/LostLuggage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2812">
+          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Controllers/LostAndFound.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1520">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Controllers/LuggageDetailController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1061">
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Controllers/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-313">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tests/Models/LuggageTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-619">
-          <caret line="24" column="25" lean-forward="true" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+        <state relative-caret-position="969">
+          <caret line="67" selection-start-line="67" selection-end-line="67" />
         </state>
       </provider>
     </entry>
