@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.UsersEdit">
+    <children>
+        <BorderPane prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <center>
+                <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+                    <children>
+                        <VBox layoutX="14.0" prefHeight="235.0" prefWidth="218.0">
+                            <children>
+                                <Label text="Username" />
+                                <TextField fx:id="UserNameField" />
+                                <Label text="Name" />
+                                <TextField fx:id="NameField" />
+                                <Label text="E-mail" />
+                                <TextField fx:id="MailField" />
+                                <Label text="Role" />
+                                <ComboBox fx:id="RoleField" prefWidth="150.0" promptText="Role..." />
+                                <Label text="Password" />
+                                <PasswordField fx:id="PasswordField" />
+                                <Label text="Confirm Password" />
+                                <PasswordField fx:id="ConfirmPasswordField" />
+                                <Button mnemonicParsing="false" onAction="#SaveUser" text="Save" />
+                                <Label fx:id="ValidationLabel" />
+                            </children>
+                        </VBox>
+                    </children>
+                </AnchorPane>
+            </center>
+            <top>
+                <fx:include source="Header.fxml" />
+            </top>
+            <left>
+                <fx:include source="Menu.fxml" />
+            </left>
+        </BorderPane>
+    </children>
+</AnchorPane>

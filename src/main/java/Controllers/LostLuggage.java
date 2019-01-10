@@ -190,7 +190,7 @@ public class LostLuggage implements Initializable {
         // Update luggage
         luggage.updateLuggage(getCurrentLuggageId());
         //customer.updateCustomer(customerResult.getInt("ID"));
-        
+
         Main.GoToScreen("LostAndFound.fxml");
         
         return true;

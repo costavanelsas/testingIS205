@@ -2,6 +2,7 @@ package Controllers;
 
 import Models.User;
 import javafx.application.Application;
+import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
@@ -10,7 +11,9 @@ import java.io.IOException;
 
 public class Main extends Application {
 
+    @FXML
     private static Stage thePrimaryStage;
+    @FXML
     private static Scene theScene;
     private static int StageWidth = 1000;
     private static int StageHeight = 600;
@@ -19,24 +22,25 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {
         //load the landing-view
-        Parent root = FXMLLoader.load(getClass().getResource("../Views/Inloggen.fxml"));
-        
+        Parent root = FXMLLoader.load(getClass().getResource("/fxml/Inloggen.fxml"));
+
         // set the properties of the stage
         primaryStage.setTitle("Corendon Luggage Hero");
         Scene newScene = new Scene(root, StageWidth, StageHeight);
-        theScene = newScene;
+//        theScene = newScene;
         primaryStage.setScene(newScene);
         primaryStage.show();
-        thePrimaryStage = primaryStage;
+//        thePrimaryStage = primaryStage;
     }
 
+    @FXML
     public static void GoToScreen(String name) throws IOException {
         // get the current sizes so the scene can be the same size again
         StageWidth = (int) theScene.getWidth();
         StageHeight = (int) theScene.getHeight();
         
         //load the new scene in
-        Parent root = FXMLLoader.load(Main.class.getResource("../Views/" + name));
+        Parent root = FXMLLoader.load(Main.class.getClassLoader().getResource("/fxml/" + name));
         
         // store the scene to use its properties later again
         Scene newScene = new Scene(root, StageWidth, StageHeight);
