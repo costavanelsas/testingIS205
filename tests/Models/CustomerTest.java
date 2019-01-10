@@ -17,7 +17,7 @@ import static org.junit.Assert.*;
 
 /**
  *
- * @author Lorenzo Wijtman
+ * @author Costa van Elsas, Walter Tesevic
  */
 public class CustomerTest {
     

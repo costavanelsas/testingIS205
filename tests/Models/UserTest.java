@@ -16,7 +16,7 @@ import static org.junit.Assert.*;
 
 /**
  *
- * @author Costa van Elsas
+ * @author Costa van Elsas, Walter Tesevic
  */
 public class UserTest {
     

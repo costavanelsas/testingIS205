@@ -15,7 +15,7 @@ import static org.junit.Assert.*;
 
 /**
  *
- * @author Costa van Elsas, 500782594
+ * @author Costa van Elsas
  */
 public class LuggageTest {
 
