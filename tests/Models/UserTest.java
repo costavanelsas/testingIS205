@@ -16,7 +16,7 @@ import static org.junit.Assert.*;
 
 /**
  *
- * @author Simon
+ * @author Costa van Elsas
  */
 public class UserTest {
     
@@ -31,11 +31,11 @@ public class UserTest {
     @Before
     public void setUp() throws NoSuchAlgorithmException {
         currentInvalidUser.setID(1);
-        currentInvalidUser.setUsername("Simon1");
-        currentInvalidUser.setName("Simon");
+        currentInvalidUser.setUsername("Costa1");
+        currentInvalidUser.setName("Costa");
         currentInvalidUser.setRole("");
-        currentInvalidUser.setEmail("Simon@.com");
-        currentInvalidUser.setPassword("aaa");
+        currentInvalidUser.setEmail("costa@.nl");
+        currentInvalidUser.setPassword("a");
     }
     
     @Test

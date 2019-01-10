@@ -15,7 +15,7 @@ import static org.junit.Assert.*;
 
 /**
  *
- * @author Simon
+ * @author Costa van Elsas, 500782594
  */
 public class LuggageTest {
     
@@ -23,9 +23,9 @@ public class LuggageTest {
     
     @Before
     public void setUp() {
-        currentLuggage = new Luggage("AAA", "Koffer", "North Face", "Red",
-            "Wheel", "Unknown", "Not Found", "Amsterdam",
-            "Amsterdam", "20-11-2017", "24-12-2017", "ABC123",
+        currentLuggage = new Luggage("LABEL1", "Koffer", "Gucci", "Red",
+            "Trolly", "Unknown", "Not Found", "Amsterdam",
+            "Amsterdam", "12-10-2018", "11-10-2018", "ABC123",
             1, 100.00);
     }
 

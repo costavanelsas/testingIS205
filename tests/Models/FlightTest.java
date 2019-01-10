@@ -16,7 +16,7 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 /**
  *
- * @author jairz
+ * @author Walter Tesevic
  */
 public class FlightTest {
     
@@ -47,31 +47,14 @@ public class FlightTest {
      */
     @Test
     public void testFlightId() {
-        System.out.println("Flight");
-        String FlightId = "AA11";
-        String Airport = "Amsterdam";
-        String Destination = "";
-        String Date = "";
-        String Time = "";
-        instance.Flight(FlightId, Airport, Destination, Date, Time);     
-        assertThat("AA11", equalTo(instance.getFlightId()));
-    }
-
-    /**
-     * Test of saveFlight method, of class Flight.
-     */
-    @Test
-    public void testSaveFlight() throws Exception {
-        System.out.println("saveFlight");
-        String FlightId = "AA11";
+        System.out.println("Flight id test");
+        String FlightId = "ABC";
         String Airport = "Amsterdam";
         String Destination = "";
         String Date = "";
         String Time = "";
         instance.Flight(FlightId, Airport, Destination, Date, Time);
-        boolean expResult = true;
-        boolean result = instance.saveFlight();
-        assertThat(expResult, equalTo(result));
+        assertThat("ABC", equalTo(instance.getFlightId()));
     }
 
     /**
@@ -79,8 +62,8 @@ public class FlightTest {
      */
     @Test
     public void testIsValid() {
-        System.out.println("isValid");
-        String FlightId = "AA11";
+        System.out.println("is Valid flight test");
+        String FlightId = "ABC";
         String Airport = "Amsterdam";
         String Destination = "Londen";
         String Date = "20-01-11";
@@ -90,14 +73,14 @@ public class FlightTest {
         boolean result = instance.isValid();
         assertThat(expResult, equalTo(result));
     }
-    
+
     /**
      * Test of isValid method, of class Flight
      * To see if it returns false when there are fields null
      */
     @Test
     public void testInvalid() {
-        System.out.println("isInvalid");
+        System.out.println("is Invalid flight");
         String FlightId = null;
         String Airport = null;
         String Destination = "Londen";
@@ -106,6 +89,23 @@ public class FlightTest {
         instance.Flight(FlightId, Airport, Destination, Date, Time);
         boolean expResult = false;
         boolean result = instance.isValid();
+        assertThat(expResult, equalTo(result));
+    }
+
+    /**
+     * Test of saveFlight method, of class Flight.
+     */
+    @Test
+    public void testSaveFlight() throws Exception {
+        System.out.println("save Flight");
+        String FlightId = "ABC";
+        String Airport = "Amsterdam";
+        String Destination = "";
+        String Date = "";
+        String Time = "";
+        instance.Flight(FlightId, Airport, Destination, Date, Time);
+        boolean expResult = true;
+        boolean result = instance.saveFlight();
         assertThat(expResult, equalTo(result));
     }
 
@@ -119,18 +119,7 @@ public class FlightTest {
         ResultSet result = instance.getFlights();
         assertTrue(result.first());
     }
-    
-    /**
-     * Test to see if the method getFlight returns a flight
-     * @throws Exception
-     */
-    @Test
-    public void testGetFlight() throws Exception {
-        System.out.println("getFlight");
-        ResultSet result = instance.getFlight("ABC123");
-        assertTrue(result.first());
-    }
-    
+
     /**
      * Test to see if the method getFlight returns null if there is a non existing ID given
      * @throws Exception
@@ -142,4 +131,14 @@ public class FlightTest {
         assertFalse(result.first());
     }
     
+    /**
+     * Test to see if the method getFlight returns a flight
+     * @throws Exception
+     */
+    @Test
+    public void testGetFlight() throws Exception {
+        System.out.println("getFlight");
+        ResultSet result = instance.getFlight("ABC123");
+        assertTrue(result.first());
+    }
 }

@@ -17,7 +17,7 @@ import static org.junit.Assert.*;
 
 /**
  *
- * @author jairz
+ * @author Lorenzo Wijtman
  */
 public class CustomerTest {
     
@@ -32,53 +32,64 @@ public class CustomerTest {
     }
     
     /**
-     * Test to see if the method getCustomerss returns at least 1 flight/row
+     * Test to see if the method getCustomers returns at least 1 flight/row
      * @throws Exception
      */
     @Test
     public void testGetCustomers() throws Exception {
-        System.out.println("getCustomers");
+        System.out.println("get customers");
         ResultSet result = instance.getCustomers();
         assertTrue(result.first());
     }
     
     /**
-     * Test to see if the method getCustomerss returns at least 1 flight/row
+     * Test to see if the method getCustomers returns at least 1 flight/row
      * @throws Exception
      */
     @Test
     public void testGetCustomer() throws Exception {
-        System.out.println("getCustomer");
+        System.out.println("get customer");
         ResultSet result = instance.getCustomer(1);
         assertTrue(result.first());
     }
     
     /**
-     * Test to see if the method getCustomerss returns 0 results with an false ID
+     * Test to see if the method getCustomers returns 0 results with an false ID
      * @throws Exception
      */
     @Test
     public void testGetFalseCustomer() throws Exception {
-        System.out.println("getCustomer");
-        ResultSet result = instance.getCustomer(912137);
+        System.out.println("get a false customer");
+        ResultSet result = instance.getCustomer(123456);
         assertFalse(result.first());
     }
     
-     @Test
+    @Test
     public void testSaveCustomer() throws Exception {
-        System.out.println("saveFlight");
-        String name = "Test!";
-        String email = "jair.zijp@hva.nl";
+        System.out.println("make a flight");
+
+        String name = "Costa";
+        String email = "elsasc@hva.nl";
         String address = "Wibautstraat";
         String city = "Amsterdam";
-        String zipcode = "2031AA";
+        String zipcode = "1000AA";
         String country = "NL";
-        String phoneNumber = "+31 0612232423";
+        String phoneNumber = "06123456789";
+
         instance.Customer(name, email, address, city, zipcode, country, phoneNumber);
+
         boolean expResult = true;
         boolean result = instance.saveCustomer();
+
         assertThat(expResult, equalTo(result));
     }
-    
- 
+
+    @Test
+    public void NameCanBeChanged() {
+        String newName = "This is a new name";
+        instance.setName(newName);
+
+        assertThat(newName, equalTo(instance.getName()));
+    }
+
 }
