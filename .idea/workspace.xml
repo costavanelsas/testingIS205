@@ -2,29 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea069a38-821c-469c-b110-b01b356e9984" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_5_1_47.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/poi_3_17.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LuggageHero.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nbproject/build-impl.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nbproject/build-impl.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Controllers/ExcelReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controllers/ExcelReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Controllers/Inloggen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controllers/Inloggen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/Inloggen.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/Inloggen.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/fxml/Inloggen.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fxml/Inloggen.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/java/Controllers/ExcelReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/java/Controllers/ExcelReader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Models/CustomerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Models/FlightTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Models/LuggageTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Models/UserTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Models/CustomerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/Models/CustomerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Models/FlightTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/Models/FlightTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Models/LuggageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/Models/LuggageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Models/UserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/Models/UserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/Models/CustomerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/Models/CustomerTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -37,38 +15,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Controllers/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/Inloggen.fxml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="54" column="60" selection-start-line="54" selection-start-column="60" selection-end-line="54" selection-end-column="60" />
-            </state>
-          </provider>
-          <provider editor-type-id="JavaFX-Scene-Builder" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Controllers/Inloggen.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="458">
-              <caret line="67" selection-start-line="67" selection-end-line="67" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/tests/Models/CustomerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+            <state relative-caret-position="423">
+              <caret line="93" column="74" selection-start-line="93" selection-start-column="74" selection-end-line="93" selection-end-column="74" />
               <folding>
                 <element signature="e#0#2506#0" expanded="true" />
               </folding>
@@ -77,22 +27,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Controllers/ExcelReader.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Models/Customer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="1496">
+              <caret line="93" column="8" lean-forward="true" selection-start-line="93" selection-start-column="8" selection-end-line="93" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Models/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="34" selection-start-line="34" selection-end-line="34" />
+            <state relative-caret-position="-612">
+              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/tests/Models/UserTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="646">
+              <caret line="53" column="5" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -109,6 +65,8 @@
         <option value="$PROJECT_DIR$/src/main/java/Controllers/ExcelReader.java" />
         <option value="$PROJECT_DIR$/src/main/resources/fxml/Inloggen.fxml" />
         <option value="$PROJECT_DIR$/src/main/java/Controllers/Inloggen.java" />
+        <option value="$PROJECT_DIR$/src/tests/Models/CustomerTest.java" />
+        <option value="$PROJECT_DIR$/src/tests/Models/UserTest.java" />
       </list>
     </option>
   </component>
@@ -198,7 +156,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547199107458" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547201311145" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/libraries/mysql-connector-java-5.1.47/mysql-connector-java-5.1.47.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -224,7 +182,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.All in LuggageHero">
+  <component name="RunManager" selected="JUnit.CustomerTest.getLastIdTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Controllers.Main" />
       <module name="LuggageHero" />
@@ -260,10 +218,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CustomerTest.getLastIdTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LuggageHero" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Models.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Models" />
+      <option name="MAIN_CLASS_NAME" value="Models.CustomerTest" />
+      <option name="METHOD_NAME" value="getLastIdTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.All in LuggageHero" />
+        <item itemvalue="JUnit.CustomerTest.getLastIdTest" />
         <item itemvalue="JUnit.CustomerTest" />
+        <item itemvalue="JUnit.All in LuggageHero" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -278,20 +253,48 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1547197852058</updated>
-      <workItem from="1547197853288" duration="1132000" />
+      <workItem from="1547197853288" duration="3946000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CustomerTest - 2019.01.11 at 10h 26m 36s.xml">
-      <configuration name="CustomerTest" configurationId="JUnit" />
+    <history-entry file="CustomerTest_getLastIdTest - 2019.01.11 at 10h 50m 49s.xml">
+      <configuration name="CustomerTest.getLastIdTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CustomerTest_getLastIdTest - 2019.01.11 at 10h 51m 32s.xml">
+      <configuration name="CustomerTest.getLastIdTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CustomerTest_getLastIdTest - 2019.01.11 at 10h 52m 33s.xml">
+      <configuration name="CustomerTest.getLastIdTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CustomerTest_getLastIdTest - 2019.01.11 at 10h 53m 38s.xml">
+      <configuration name="CustomerTest.getLastIdTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CustomerTest_getLastIdTest - 2019.01.11 at 10h 54m 46s.xml">
+      <configuration name="CustomerTest.getLastIdTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CustomerTest_getLastIdTest - 2019.01.11 at 10h 54m 47s.xml">
+      <configuration name="CustomerTest.getLastIdTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CustomerTest_getLastIdTest - 2019.01.11 at 11h 00m 35s.xml">
+      <configuration name="CustomerTest.getLastIdTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CustomerTest_getLastIdTest - 2019.01.11 at 11h 03m 44s.xml">
+      <configuration name="CustomerTest.getLastIdTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CustomerTest_getLastIdTest - 2019.01.11 at 11h 05m 01s.xml">
+      <configuration name="CustomerTest.getLastIdTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CustomerTest_getLastIdTest - 2019.01.11 at 11h 06m 42s.xml">
+      <configuration name="CustomerTest.getLastIdTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1132000" />
+    <option name="totallyTimeSpent" value="3946000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
@@ -299,7 +302,7 @@
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Learn" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
@@ -310,8 +313,8 @@
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -325,6 +328,39 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Designer" order="0" />
+      <window_info id="Image Layers" order="1" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="Learn" order="5" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.25" />
+      <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="0" />
+      <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="3" weight="0.32936078" />
+      <window_info anchor="bottom" id="SonarLint" order="4" />
+      <window_info anchor="bottom" id="Database Changes" order="5" />
+      <window_info anchor="bottom" id="Version Control" order="6" />
+      <window_info anchor="bottom" id="Message" order="7" />
+      <window_info anchor="bottom" id="Find" order="8" />
+      <window_info anchor="bottom" id="Run" order="9" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Debug" order="10" weight="0.3997833" />
+      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="13" />
+      <window_info anchor="right" id="Maven" order="0" />
+      <window_info anchor="right" id="Palette" order="1" />
+      <window_info anchor="right" id="Capture Analysis" order="2" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -369,13 +405,62 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Controllers/RegisterLuggage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2482">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/Models/LuggageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/Models/FlightTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1411">
+          <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Models/DB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-561">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Models/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-612">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Models/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1496">
+          <caret line="93" column="8" lean-forward="true" selection-start-line="93" selection-start-column="8" selection-end-line="93" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/tests/Models/CustomerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+        <state relative-caret-position="423">
+          <caret line="93" column="74" selection-start-line="93" selection-start-column="74" selection-end-line="93" selection-end-column="74" />
           <folding>
             <element signature="e#0#2506#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/Models/UserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="53" column="5" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -456,7 +541,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>poi-ooxml-3.17</last-edited>
+          <last-edited>mysql-connector-java-5.1.47</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
