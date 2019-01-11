@@ -9,8 +9,5 @@
         <module name="LuggageHero" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="LuggageHero" target="7" />
-    </bytecodeTargetLevel>
   </component>
 </project>
